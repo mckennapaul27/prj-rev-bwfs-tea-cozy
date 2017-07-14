@@ -1,0 +1,134 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.90;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  align-items: center;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 100%;
+  text-align: center;
+  top: 0;
+  z-index: 5;
+}
+
+.header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  text-align: right;
+  padding-right: 30px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
+  text-decoration: underline;
+  color: seashell;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container1 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 100px;
+  height: 700px;
+  width: 1200px;
+  background-image:url("../images/mission-background.jpg");
+}
+
+.container1 .content {
+  background-color: black;
+  align-items: center;
+}
+
+.container2 {
+  display: flex;
+  width: 1000px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.types {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea-type img {
+  width: 300px;
+  height: 200px;
+  margin-right: 30px;
+}
+
+.tea-type p {
+  margin: 10px 30px 20px 0px;
+}
+
+.container3 {
+  display: flex;
+  background-image: url("../images/locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.container3 h2 {
+  margin: 0px 0px 15px 0px;
+}
+
+.container3 .locations {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+
+.locations .address {
+  display: flex;
+  background-color: black;
+  width: 300px;
+  height: 250px;
+  display: block;
+  margin-right: 40px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.footer .contact {
+  height: 200px;
+}
+
+.footer .copyright {
+  text-align: left;
+  margin-left: 20px;
+}
